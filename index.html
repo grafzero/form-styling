@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Form styling</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="form_wrapper">
+        <form>
+
+            <label for="imie">Imię</label></br>
+            <input id="imie" type="text" name="Imię"> </br>
+            </br>
+
+
+            <label for="imie">Nazwisko</label> </br>
+            <input type="text" name="Nazwisko"><br>
+
+
+
+
+            <label>Adres e-mail:<br />
+                <input type="text" name: "email" /></label><br />
+            <label>Telefon komorkowy:<br />
+                    <input type="text" name="mobile" /></label><br />
+            <label>Telefon:<br />
+                       <input type="text" name="telephone"/></label>
+            <br />
+
+
+
+            <input id="female" type="radio" name="gender" value="f">
+            <label for="female">kobieta</label><br/>
+            <input id="male" type="radio" name="gender" value="m">
+            <label for="male">mężczyzna</label><br />
+
+
+
+            <label for="miasto">Wybierz miasto</label> </br>
+
+            <select id="miasto">
+  <option value="Warszawa">Warszawa</option>
+  <option value="Gdańsk">Gdańsk</option>
+  <option value="Kraków">Kraków</option>
+  <option value="Toruń">Toruń</option>
+</select>
+            <br />
+
+            </br>
+
+            <label for="comments">Komentarz</label><br />
+            <textarea rows="1" cols="40" id="comments"></textarea>
+            <br />
+
+            <label>Chcę być informowany o nowych ofertach</label>
+            <input type="checkbox" name="subscribe" checked="checked" />
+
+
+            <br />
+            <input type="submit" value="send" />
+
+
+        </form>
+
+
+    </div>
+    <!--   end of form_wrapper-->
+
+
+
+</body>
+
+</html>

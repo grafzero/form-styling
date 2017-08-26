@@ -1,0 +1,71 @@
+body {
+    /*    box-sizing: border-box;*/
+}
+
+.form_wrapper {
+    background-color: #213b50;
+    color: #ffffff;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 400px;
+}
+
+.form_wrapper input[type="text"] {
+    background-color: #2b4a64;
+    color: #ffffff;
+    outline: none;
+    border: 1px solid transparent;
+    width: 200px;
+}
+
+.form_wrapper input[type="text"]:focus {
+    background-color: #4e708c;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+.form_wrapper select {
+    background-color: #2b4a64;
+    color: #ffffff;
+    border: 1px solid transparent;
+    outline: none;
+    width: 200px;
+}
+
+.form_wrapper select:focus {
+    background-color: #4e708c;
+    border: 2px;
+    border-color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+.form_wrapper textarea {
+    background-color: #2b4a64;
+    color: #ffffff;
+    border: 1px solid transparent;
+    outline: none;
+    width: 200px;
+}
+
+.form_wrapper textarea:focus {
+    background-color: #4e708c;
+    border: 1px solid #ffffff;
+}
+
+.form_wrapper input[type="submit"] {
+    background-color: darkseagreen;
+    color: white;
+    border: 1px solid transparent;
+    width: 80px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-weight: 800;
+    text-transform: uppercase;
+    outline: none;
+    margin-top: 15px;
+}
+
+.form_wrapper input[type="submit"]:active {
+    border: 1px solid #ffffff;
+}
